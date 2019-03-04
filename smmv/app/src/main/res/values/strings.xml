@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">smmv</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Closer</string>
+</resources>

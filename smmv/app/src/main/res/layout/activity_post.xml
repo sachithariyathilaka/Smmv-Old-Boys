@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post"
+    android:background="#d7d7d7">
+
+    <include
+        android:id="@+id/Post_toolbar"
+        layout="@layout/toolbar_header">
+    </include>
+
+    <ImageButton
+        android:id="@+id/post_image"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Post_toolbar"
+        app:srcCompat="@drawable/select_image" />
+
+    <EditText
+        android:id="@+id/post_content"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="85dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Write Something About Your Post..."
+        android:inputType="textMultiLine"
+        android:textColorHint="#778899"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_image" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Update Post"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_content"
+        tools:layout_marginBottom="30dp" />
+
+</android.support.constraint.ConstraintLayout>

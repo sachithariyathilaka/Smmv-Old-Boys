@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reset"
+    android:background="@drawable/back">
+
+    <include
+        android:id="@+id/reset_toolbar"
+        layout="@layout/toolbar_header"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </include>
+
+    <TextView
+        android:id="@+id/resetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="186dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="50dp"
+        android:text="We will Send Password Reset Link Into Your Email"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reset_toolbar" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:inputType="textPersonName"
+        android:textColorHint="#778899"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetText" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="139dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+</android.support.constraint.ConstraintLayout>

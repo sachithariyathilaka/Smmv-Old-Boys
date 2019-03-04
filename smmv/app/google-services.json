@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "170065459432",
+    "firebase_url": "https://smmv-686c5.firebaseio.com",
+    "project_id": "smmv-686c5",
+    "storage_bucket": "smmv-686c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170065459432:android:aefe871016278d2f",
+        "android_client_info": {
+          "package_name": "com.example.sachithariahilaka.smmv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170065459432-8cjcpaqh7uk0qffk6k71355dv2h5o68d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5xXycx5FNlQcBKHPURPsjQzxcRwSMEsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
